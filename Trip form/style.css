@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    /* background-color: rgb(198, 157, 241); */
+    padding: 34px;
+    margin: auto;
+
+}
+.container h1, p{
+    text-align: center;
+   
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 35px;
+}
+p{
+    font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.submitMsg{
+
+    font-size: 15px;
+    color:green;
+    margin-top: 15px;
+  font-weight: 600;
+}
+
+input, textarea{
+    width: 80%;
+    margin: 8px auto;
+    padding: 7px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    display: inline-block;
+    background-color: purple;
+    color: #ffff;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    height: -webkit-fill-available;
+    object-fit: cover;
+    opacity: 0.7;
+}
